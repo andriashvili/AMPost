@@ -23,13 +23,10 @@
         <a class="nav-link" href="index.html">მთავარი </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ჩვენ შესახებ</a>
+        <a class="nav-link" href="about.html">ჩვენს შესახებ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="services.html">სერვისები</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">ფასები</a>
+        <a class="nav-link" href="services.html">ფასები</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.html">კონტაქტი</a>
@@ -40,29 +37,38 @@
 		</header>
     <img src="https://keystoserenity.org/wp-content/uploads/2018/07/contact-us.jpg" class="img-fluid" alt="Responsive image">
     <hr>
-    <h2 class="text1">დაგვიკავშირდით</h2>
 <div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">სახელი:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">გვარი:</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">ქვეყანა:</label>
-    <select id="country" name="country">
-      <option value="australia">საქართველო</option>
-      <option value="canada">გერმანია</option>
-      <option value="usa">საფრანგეთი</option>
-    </select>
-
-    <label for="subject">წერილი:</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="გაგზავნა">
-
-  </form>
+  <div style="text-align:center">
+    <h2 class="text1">დაგვიკავშირდით</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h4 class="nav1">საკონტაქტო ინფორმაცია</h4>
+      სათაო ოფისი
+<p>Adress: თბილისი, 8 მერაბ ალექსიძის ქუჩა</p>
+<p>Tel: +995 32 2 11 00 16</p><br>
+<p>Email: info@ampost.ge</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.133131148449!2d44.78276671480891!3d41.717645983420184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d4fb054a47%3A0x42bbf12ac395328d!2z4YOl4YOQ4YOg4YOX4YOj4YOaLeGDkOGDm-GDlOGDoOGDmOGDmeGDo-GDmuGDmCDhg6Phg5zhg5jhg5Xhg5Thg6Dhg6Hhg5jhg6Lhg5Thg6Lhg5gsIDgg4YOb4YOU4YOg4YOQ4YORIOGDkOGDmuGDlOGDpeGDoeGDmOGDq-GDmOGDoSDhg6Xhg6Phg6nhg5AsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmCAwMTYw!5e0!3m2!1ska!2sge!4v1572000332342!5m2!1ska!2sge" width="450" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname" class="nav1">სახელი:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname" class="nav1">გვარი:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country" class="nav1">ქვეყანა:</label>
+        <select id="country" name="country">
+          <option class="nav1" value="Sakartvelo" >საქართველო</option>
+          <option class="nav1" value="Germany" >გერმანია</option>
+          <option class="nav1" value="Canada" >კანადა</option>
+        </select>
+        <label for="subject" class="nav1">წერილი:</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input class="nav1" type="submit" value="გაგზავნა">
+      </form>
+    </div>
+  </div>
 </div>
 
       <div class="footer">© 2019 AMPost</div>
